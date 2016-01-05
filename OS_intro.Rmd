@@ -1,0 +1,55 @@
+---
+title: 'Introduction to Opensesame'
+author: "陳紹慶"
+date: "January 6, 2016"
+output: 
+    ioslides_presentation:
+        logo: opensesame.png
+---
+## What is Opensesame
+- A **graphical software** to create experiments for psychology, neuroscience, and experimental economics. 
+- PI: [Sebastiaan Mathôt](http://www.cogsci.nl/smathot)  
+- [official site](http://osdoc.cogsci.nl/)
+- [github repo](https://github.com/smathot/OpenSesame)
+- Current version: 3.0.4
+
+## Features 
+
+- Accurate timing[(Garaizar & Vadillo, 2014)](http://dx.doi.org/10.1371/journal.pone.0112033), but exhaust computational resource.
+- Cross OS (Windows, *Mac OS*, Linux, and Android)
+- Support a lot of external devices: eye tracker, EEG, response box(attached to PC, MRI, MEG), etc.
+- **Python scripting**
+- **Free, Open source and version controllable**
+
+## A demo OS experiment
+
+- Reproduce [Hommel (2002)](https://www.researchgate.net/publication/11326481_Responding_to_object_files_Automatic_integration_of_spatial_information_revealed_by_stimulus-response_compatibility_effects)
+- A modified Simon Task
+
+## Key objects in the design
+
+- ![](os-sequence.png)sequence  
+- ![](os-loop.png)loop  
+- Run in *if* condition
+- linked sequence/loop across sequence/loop
+- Editable script for each object
+
+## Useful objects
+- ![](form_text_display_large.png)form_text_display
+- ![](os-sketchpad.png)sketchpad  
+- ![](os-feedback.png)Feedback
+
+## ![](os-inline_script.png)inline python script
+![Retrieved from official tutorial](http://osdoc.cogsci.nl/3.0/python/img/about/inline-script.png)
+
+## ![](os-logger.png)Logger 
+- By default, opensesame outputs all variables.
+- saved in *.csv*. [Recommended tips](http://osdoc.cogsci.nl/usage/logging/)
+- Experimenter could decide which variables to be analyzed during design.
+
+## Accumulating resources
+- [Translate](http://osdoc.cogsci.nl/contribute/translate/)
+- [Version Control](http://osdoc.cogsci.nl/miscellaneous/git/)
+- ...
+
+# Thanks </br> Welcome Collaboration
